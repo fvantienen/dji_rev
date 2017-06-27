@@ -1,5 +1,7 @@
 # Reverse Engineering of DJI products
 This repository contains tools for reverse engineering DJI products.
+- `tools/image.py` is a tool to extract sig and image files
+- `tools/derive_key.py` is a script that mimics the dji_derivekey binary
 
 ## Image structure
 - Header
