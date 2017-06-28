@@ -2,6 +2,8 @@
 This repository contains tools for reverse engineering DJI products.
 - `tools/image.py` is a tool to extract sig and image files
 - `tools/derive_key.py` is a script that mimics the dji_derivekey binary
+- `tools/sign_uboot.py` is a script that is capable of signing the secure U-boot parition
+- `tools/check_uboot.py` is a script that checks the U-Boot signature and extracts it
 
 ## Image structure
 - Header
