@@ -41,7 +41,7 @@ try:
             print "No read command available in the Websocket API for this service"
         if commands.find("write"):
             print "Writing to fly_limit_height value over the websocket"
-            ws.send('{"SEQ":"' + str(uuid.uuid4().get_hex().upper()[0:6]) + '","CMD":"write","INDEX":"fly_limit_height"}')
+            ws.send('{"SEQ":"' + str(uuid.uuid4().get_hex().upper()[0:6]) + '","CMD":"write","INDEX":"fly_limit_height", "VALUE":111}')
             result = ws.recv()
             print result
         else:
